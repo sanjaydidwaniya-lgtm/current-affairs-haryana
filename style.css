@@ -1,0 +1,39 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"Noto Sans Devanagari",Arial,sans-serif;background:#f3f5f9;color:#1d2433;line-height:1.75}
+a{color:#0b5d3b}
+#bar{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,#ff9933,#fff,#138808);z-index:99}
+header{position:sticky;top:0;z-index:50;background:rgba(13,27,61,.96);backdrop-filter:blur(6px);color:#fff;display:flex;justify-content:space-between;align-items:center;padding:10px 20px;flex-wrap:wrap;gap:6px}
+.brand{color:#fff;text-decoration:none;font-weight:700;font-size:18px;line-height:1.2}.brand small{display:block;font-weight:400;font-size:12px;opacity:.75}
+nav a{color:#fff;text-decoration:none;margin-left:16px;font-size:15px;position:relative}nav a:after{content:"";position:absolute;left:0;bottom:-3px;height:2px;width:0;background:#ff9933;transition:width .25s}nav a:hover:after{width:100%}
+.hero{position:relative;overflow:hidden;color:#fff;padding:44px 20px 56px;background:#0d1b3d url(/banner.jpg) center/cover no-repeat}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,#0d1b3d,#1c3a7a,#138808,#0d1b3d);background-size:300% 300%;animation:flow 14s ease infinite;opacity:.9}
+.hero.has-img:before{opacity:.62}.hero.has-img .hero-m{display:none}.hero.has-img{padding:90px 20px 110px}
+@keyframes flow{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
+.hero-in{position:relative;max-width:1000px;margin:0 auto;display:flex;gap:28px;align-items:center;flex-wrap:wrap}.hero-t{flex:1 1 340px}
+.badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.4);padding:4px 14px;border-radius:20px;font-size:13px;margin-bottom:12px;animation:up .8s both}
+.hero h1{font-size:clamp(28px,6vw,48px);line-height:1.2;margin:0 0 12px;animation:up .8s .1s both}.hero h1 span{background:linear-gradient(90deg,#ffd27a,#ff9933,#ffd27a);background-size:200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 3s linear infinite}
+@keyframes shine{to{background-position:200% 0}}
+.hero p{margin:0 0 20px;opacity:.93;animation:up .8s .2s both}.btns{display:flex;gap:12px;flex-wrap:wrap;animation:up .8s .3s both}
+.btn{display:inline-block;padding:11px 22px;border-radius:30px;text-decoration:none;font-weight:700;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.3)}
+.b1{background:#ff9933;color:#1d2433}.b2{border:2px solid #fff;color:#fff}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.hero-m{flex:0 1 270px;width:270px;margin:0 auto;animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px)}}
+.map{width:100%;height:auto;filter:drop-shadow(0 10px 18px rgba(0,0,0,.4))}.shape{fill:#138808;stroke:#fff;stroke-width:3;stroke-linejoin:round;stroke-dasharray:1600;stroke-dashoffset:1600;animation:draw 2.4s ease forwards,fillin 1.2s 1.6s forwards;fill-opacity:0}
+@keyframes draw{to{stroke-dashoffset:0}}@keyframes fillin{to{fill-opacity:1}}
+.pin text{font-size:11px;fill:#fff;stroke:#0b3d1f;stroke-width:.4;opacity:0;animation:pop .5s var(--d) forwards}.pin circle{opacity:0;animation:pop .5s var(--d) forwards}.pin .pulse{fill:none;stroke:#ff9933;animation:ring 2s calc(var(--d) + .5s) infinite}
+@keyframes pop{to{opacity:1}}@keyframes ring{0%{r:3;opacity:.9}100%{r:14;opacity:0}}
+.ticker{background:#ff9933;color:#1d2433;overflow:hidden;white-space:nowrap;font-weight:700}.ticker div{display:inline-block;padding:8px 0;animation:marq 38s linear infinite}.ticker span{margin:0 28px}
+@keyframes marq{to{transform:translateX(-50%)}}
+section.w{max-width:1000px;margin:0 auto;padding:44px 18px}h2.t{color:#0d1b3d;font-size:clamp(22px,4vw,30px);margin:0 0 6px}h2.t:after{content:"";display:block;width:60px;height:4px;background:#ff9933;border-radius:3px;margin-top:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:20px}.st{background:#fff;border-radius:14px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(13,27,61,.08)}.st b{display:block;font-size:34px;color:#138808}.st span{font-size:14px;color:#5a6479}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:20px}
+.card{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 18px rgba(13,27,61,.08);border-top:5px solid #ff9933;transition:transform .25s,box-shadow .25s}.card:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(13,27,61,.16)}
+.card small{color:#138808;font-weight:700}.card h3{margin:4px 0 8px;color:#0d1b3d}.card ul{padding-left:20px;margin:0 0 14px;font-size:15px}.card .btn{background:#0d1b3d;color:#fff;padding:9px 20px}
+.quiz{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 18px rgba(13,27,61,.08);margin-top:20px}.q{margin:0 0 22px}.q p{font-weight:700;margin:0 0 8px}.opt{display:block;width:100%;text-align:left;margin:6px 0;padding:10px 14px;border:2px solid #d5dbe8;border-radius:10px;background:#fff;font:inherit;cursor:pointer;transition:all .2s}.opt:hover{border-color:#ff9933}.opt.ok{background:#d9f5e0;border-color:#138808}.opt.no{background:#fde2e2;border-color:#d33;animation:shake .35s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.score{font-weight:700;color:#0d1b3d}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+article{max-width:860px;margin:-26px auto 0;padding:0 16px 30px;position:relative}.paper{background:#fff;border-radius:16px;padding:24px;box-shadow:0 6px 22px rgba(13,27,61,.1)}.paper h2{color:#0d1b3d;border-bottom:3px solid #ff9933;padding-bottom:4px;margin-top:32px}.paper h3{color:#0b5d3b}
+table{display:block;overflow-x:auto;border-collapse:collapse;width:100%;font-size:15px}th{background:#0d1b3d;color:#fff}td,th{border:1px solid #d5dbe8;padding:8px}tr:nth-child(even) td{background:#f6f8fc}tbody tr:hover td{background:#fff3e0}
+footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.shape{stroke-dashoffset:0;fill-opacity:1}.pin *{opacity:1}}
