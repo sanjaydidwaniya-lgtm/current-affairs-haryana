@@ -6,7 +6,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(13,27,61,.96);backdrop-f
 nav a{color:#fff;text-decoration:none;margin-left:16px;font-size:15px;position:relative}nav a:after{content:"";position:absolute;left:0;bottom:-3px;height:2px;width:0;background:#ff9933;transition:width .25s}nav a:hover:after{width:100%}
 .hero{position:relative;overflow:hidden;color:#fff;padding:44px 20px 56px;background:#0d1b3d url(/banner.jpg) center/cover no-repeat}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,#0d1b3d,#1c3a7a,#138808,#0d1b3d);background-size:300% 300%;animation:flow 14s ease infinite;opacity:.9}
-.hero.has-img:before{opacity:.62}.hero.has-img .hero-m{display:none}.hero.has-img{padding:90px 20px 110px}
+.hero.has-img:before{opacity:.78}.hero.has-img .hero-m{display:none}.hero.has-img{padding:90px 20px 110px}
 @keyframes flow{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
 .hero-in{position:relative;max-width:1000px;margin:0 auto;display:flex;gap:28px;align-items:center;flex-wrap:wrap}.hero-t{flex:1 1 340px}
 .badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.4);padding:4px 14px;border-radius:20px;font-size:13px;margin-bottom:12px;animation:up .8s both}
@@ -37,3 +37,4 @@ article{max-width:860px;margin:-26px auto 0;padding:0 16px 30px;position:relativ
 table{display:block;overflow-x:auto;border-collapse:collapse;width:100%;font-size:15px}th{background:#0d1b3d;color:#fff}td,th{border:1px solid #d5dbe8;padding:8px}tr:nth-child(even) td{background:#f6f8fc}tbody tr:hover td{background:#fff3e0}
 footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.shape{stroke-dashoffset:0;fill-opacity:1}.pin *{opacity:1}}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chips span{background:#e8f3ec;color:#0b5d3b;border:1px solid #b8dcc5;padding:4px 12px;border-radius:20px;font-size:14px;font-weight:700}.secs{padding-left:22px}.secs li{margin:4px 0}.note{background:#fff3e0;border-left:4px solid #ff9933;padding:10px 14px;border-radius:6px;margin-top:22px}.pn{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:24px}.pn a{font-size:14px}.card .btn{margin:2px 4px 2px 0}
