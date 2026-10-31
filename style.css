@@ -61,3 +61,28 @@ footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 .buy-b{display:inline-block;padding:12px 24px;border-radius:999px;background:#ffb703;color:#1a1a1a!important;font-weight:800;text-decoration:none;box-shadow:0 3px 0 #c98a00;transition:transform .15s}
 .buy-b:hover{transform:translateY(-2px)}
 @media(max-width:520px){.buy-b{width:100%;text-align:center}}
+.mn{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.dd{position:relative}
+.dd .ddm{display:none;position:absolute;right:0;top:100%;min-width:200px;background:#fff;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.25);padding:8px;z-index:60}
+.dd:hover .ddm,.dd:focus-within .ddm{display:block}
+.dd .ddm a{display:block;color:#13295c;margin:0;padding:9px 12px;border-radius:8px;font-weight:600}
+.dd .ddm a:hover{background:#fff1e0}
+.dd .ddm a:after{display:none}
+.dd .ddm a.all{background:#ff9933;color:#fff;margin-top:4px;text-align:center}
+.mgrid{max-width:1000px;margin:26px auto;padding:0 16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+.mc{background:#fff;border-radius:16px;padding:20px;box-shadow:0 6px 20px rgba(19,41,92,.12);border-top:5px solid #ff9933;transition:transform .2s}
+.mc:hover{transform:translateY(-4px)}
+.mc-m{font-size:1.7rem;font-weight:800;color:#13295c}
+.mc-y{color:#ff9933;font-weight:700;margin-bottom:6px}
+.mc p{margin:6px 0 14px;font-size:.92rem;color:#445}
+.mc-b,.mc-s{display:flex;gap:8px;flex-wrap:wrap}
+.mc-b a{flex:1;text-align:center;padding:10px;border-radius:999px;color:#fff;text-decoration:none;font-weight:700;background:linear-gradient(135deg,#13295c,#2b57c4)}
+.mc-b a.b-en{background:linear-gradient(135deg,#e07b00,#ffb703);color:#1a1a1a}
+.mc-s{margin-top:10px}
+.mc-s a{flex:1;text-align:center;font-size:.85rem;padding:7px;border:1px dashed #2b57c4;border-radius:8px;color:#13295c;text-decoration:none;font-weight:600}
+.hero.lp{min-height:0}
+.tagbox,.tagbox2{max-width:1000px;margin:22px auto}
+.tagbox2{margin-top:30px;border-top:2px solid #e8ecf3;padding-top:6px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{background:#eef2fb;color:#13295c;border:1px solid #d3dcf2;padding:5px 11px;border-radius:999px;font-size:.84rem}
+@media(max-width:640px){header{position:static}.dd .ddm{position:static;box-shadow:none}.dd:hover .ddm{display:none}.dd:focus-within .ddm{display:block}}
