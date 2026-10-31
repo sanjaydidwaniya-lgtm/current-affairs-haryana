@@ -46,3 +46,11 @@ footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 .full h3{margin:20px 0 6px}
 .full p,.full li{line-height:1.75;margin:8px 0}
 .full ul{padding-left:22px}
+.mcq{margin-top:36px;border-top:2px solid #e8ecf3;padding-top:8px}
+.mcqscore{font-weight:700;margin:8px 0;color:#13295c}
+.mcq .q{margin:18px 0;padding:12px;border:1px solid #d9dee8;border-radius:10px}
+.mcq .qt{font-weight:600;margin:0 0 8px}
+.mcq .opt{display:block;width:100%;text-align:left;margin:6px 0;padding:9px 11px;border:1px solid #cfd6e4;border-radius:8px;background:#fff;color:inherit;font:inherit;cursor:pointer}
+.mcq .opt.ok{background:#dff5e3;border-color:#2e9b4a}
+.mcq .opt.no{background:#fde2e2;border-color:#d33}
+.mcq .ex{margin:8px 0 0;font-size:.95rem}
