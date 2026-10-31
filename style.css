@@ -54,3 +54,10 @@ footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 .mcq .opt.ok{background:#dff5e3;border-color:#2e9b4a}
 .mcq .opt.no{background:#fde2e2;border-color:#d33}
 .mcq .ex{margin:8px 0 0;font-size:.95rem}
+.buy{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:22px 0;padding:16px 18px;border-radius:14px;background:linear-gradient(135deg,#13295c,#2b57c4);color:#fff;box-shadow:0 6px 18px rgba(19,41,92,.28)}
+.buy-t{display:flex;flex-direction:column;gap:3px;flex:1 1 220px}
+.buy-t strong{font-size:1.12rem}
+.buy-t span{font-size:.92rem;opacity:.92}
+.buy-b{display:inline-block;padding:12px 24px;border-radius:999px;background:#ffb703;color:#1a1a1a!important;font-weight:800;text-decoration:none;box-shadow:0 3px 0 #c98a00;transition:transform .15s}
+.buy-b:hover{transform:translateY(-2px)}
+@media(max-width:520px){.buy-b{width:100%;text-align:center}}
