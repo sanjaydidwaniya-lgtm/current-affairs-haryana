@@ -38,3 +38,11 @@ table{display:block;overflow-x:auto;border-collapse:collapse;width:100%;font-siz
 footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.shape{stroke-dashoffset:0;fill-opacity:1}.pin *{opacity:1}}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chips span{background:#e8f3ec;color:#0b5d3b;border:1px solid #b8dcc5;padding:4px 12px;border-radius:20px;font-size:14px;font-weight:700}.secs{padding-left:22px}.secs li{margin:4px 0}.note{background:#fff3e0;border-left:4px solid #ff9933;padding:10px 14px;border-radius:6px;margin-top:22px}.pn{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:24px}.pn a{font-size:14px}.card .btn{margin:2px 4px 2px 0}
+.tw{overflow-x:auto;margin:14px 0}
+.tw table{border-collapse:collapse;width:100%;font-size:.92rem}
+.tw th,.tw td{border:1px solid #d9dee8;padding:6px 9px;text-align:left;vertical-align:top}
+.tw th{background:#13295c;color:#fff}
+.full h2{margin-top:34px;padding-top:6px;border-top:2px solid #e8ecf3}
+.full h3{margin:20px 0 6px}
+.full p,.full li{line-height:1.75;margin:8px 0}
+.full ul{padding-left:22px}
