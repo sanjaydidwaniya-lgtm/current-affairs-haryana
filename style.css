@@ -86,3 +86,4 @@ footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 .tags{display:flex;flex-wrap:wrap;gap:8px}
 .tags span{background:#eef2fb;color:#13295c;border:1px solid #d3dcf2;padding:5px 11px;border-radius:999px;font-size:.84rem}
 @media(max-width:640px){header{position:static}.dd .ddm{position:static;box-shadow:none}.dd:hover .ddm{display:none}.dd:focus-within .ddm{display:block}}
+.ft{background:#0d1b3d;color:#cfd8ee;text-align:center;padding:22px 14px;margin-top:30px;font-size:.9rem}.ftl{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-bottom:8px}.ft a{color:#ffb703;text-decoration:none}.pg{padding:24px}.pg h1{margin-top:0}
