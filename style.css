@@ -104,3 +104,7 @@ footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 .full .muted{color:#444;font-style:italic}
 .full ol.src{padding-left:22px;font-size:.88rem;word-break:break-word}.full ol.src li{margin:4px 0}
 .mcq .pimg{margin:0 0 14px}
+
+.gamebox{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;background:linear-gradient(120deg,#0d1b3d,#1c3a7a);color:#fff;border-radius:18px;padding:24px;box-shadow:0 6px 22px rgba(13,27,61,.18)}
+.game-t{flex:1 1 300px}.game-t small{color:#ffd27a;font-weight:700}.game-t h2{margin:4px 0 8px;color:#fff;border:0;padding:0}.game-t p{margin:0;opacity:.93;line-height:1.7}
+.game-b{background:#ffb300;color:#1a1a1a;font-weight:800;text-decoration:none;padding:13px 24px;border-radius:30px;box-shadow:0 3px 0 #b97f00}.game-b:hover{transform:translateY(-2px)}
