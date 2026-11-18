@@ -7,3 +7,5 @@ var qs=document.getElementById("quiz");if(qs){var ans=0,tot=qs.querySelectorAll(
 h.addEventListener("pointermove",function(e){var r=h.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;if(m)m.style.transform="perspective(700px) rotateY("+(x*10)+"deg) rotateX("+(-y*8)+"deg)"});
 h.addEventListener("pointerleave",function(){if(m)m.style.transform=""});
 addEventListener("scroll",function(){if(t)return;t=requestAnimationFrame(function(){t=0;var y=Math.min(scrollY,700);a.forEach(function(el,i){el.style.marginTop=(y*(i?-.12:.25))+"px"})})},{passive:true})})();
+
+addEventListener("load",function(){document.querySelectorAll(".cine .reel i[data-bg]").forEach(function(e,i){if(i)e.style.backgroundImage="url("+e.dataset.bg+")"})});
