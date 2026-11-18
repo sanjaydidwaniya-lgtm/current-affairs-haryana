@@ -116,7 +116,7 @@ footer{text-align:center;padding:28px;color:#5a6479;font-size:14px}
 .hero.cine:before{background:none;animation:none}
 .hero.cine.has-img .hero-m{display:block}
 .cine .aur{position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;will-change:transform;pointer-events:none}
-.cine .a1{width:46vmax;height:46vmax;left:-14vmax;top:-18vmax;background:radial-gradient(circle,#ffa987 0%,rgba(255,169,135,0) 66%);animation:drift1 18s ease-in-out infinite alternate}
+.cine .a1{opacity:.34;width:46vmax;height:46vmax;left:-14vmax;top:-18vmax;background:radial-gradient(circle,#ff9d7a 0%,rgba(255,169,135,0) 66%);animation:drift1 18s ease-in-out infinite alternate}
 .cine .a2{width:40vmax;height:40vmax;right:-12vmax;bottom:-20vmax;background:radial-gradient(circle,#2fb5b0 0%,rgba(47,181,176,0) 68%);animation:drift2 22s ease-in-out infinite alternate;opacity:.5}
 @keyframes drift1{to{transform:translate(8vmax,6vmax) scale(1.15)}}@keyframes drift2{to{transform:translate(-9vmax,-5vmax) scale(1.2)}}
 .cine .grain{position:absolute;inset:0;opacity:.09;mix-blend-mode:overlay;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>")}
