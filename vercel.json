@@ -3,6 +3,11 @@
  "trailingSlash": true,
  "redirects": [
   {
+   "source": "/haryana-current-affairs-september-2026/",
+   "destination": "/haryana-current-affairs-september-2026-hindi-pdf/",
+   "permanent": true
+  },
+  {
    "source": "/:path*",
    "has": [
     {
